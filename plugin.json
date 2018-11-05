@@ -5,13 +5,14 @@
   "author":           "GRoysch",
   "type":             "template",
   "serviceProvider":  "TrustedShopsRichSnippet\\Providers\\TrustedShopsRichSnippetServiceProvider",
+  "require":          ["IO"],
   "javaScriptFiles":  [],
   "containers":       [],
   "dataProviders":    [
       {
         "key":          "TrustedShopsRichSnippet\\Providers\\RichSnippetCodeProvider",
         "name":         "Trusted Shops rich snippet code",
-        "description":  "Includes Trsuted Shops rich snippet",
+        "description":  "Includes Trsuted Shops rich snippet"
       }
-  ],
+  ]
 }
