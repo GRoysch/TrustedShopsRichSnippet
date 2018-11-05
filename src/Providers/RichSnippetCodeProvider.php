@@ -12,7 +12,7 @@ use Plenty\Plugin\Templates\Twig;
 
 class RichSnippetCodeProvider
 {
-  pulbic function call(Twig $twig)
+  public function call(Twig $twig)
   {
     return $twig->render('TrustedShopsRichSnippet::RichSnippetCode');
   }
