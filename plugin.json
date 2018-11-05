@@ -1,0 +1,17 @@
+{
+  "name":             "TrustedShopsRichSnippet",
+  "description":      "Adds a Trusted Shops rich snippet",
+  "namespace":        "TrustedShopsRichSnippet",
+  "author":           "GRoysch",
+  "type":             "template",
+  "serviceProvider":  "TrustedShopsRichSnippet\\Providers\\TrustedShopsRichSnippetServiceProvider",
+  "javaScriptFiles":  [],
+  "containers":       [],
+  "dataProviders":    [
+      {
+        "key":          "TrustedShopsRichSnippet\\Providers\\RichSnippetCodeProvider",
+        "name":         "Trusted Shops rich snippet code",
+        "description":  "Includes Trsuted Shops rich snippet",
+      }
+  ],
+}
